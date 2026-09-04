@@ -1,4 +1,10 @@
-# Amazon-Style Personalized Product Recommendation System
+# Amazon-Style Personalized Product Recommendation & Priority Ranking System
+
+## Overview
+A hybrid recommendation engine that combines:
+- Collaborative Filtering
+- Popularity-Based Recommendations
+- User Preference Scoring
 
 ## Tech Stack
 - Python
@@ -7,23 +13,16 @@
 - PostgreSQL
 - Docker
 - AWS Lightsail
-- Collaborative Filtering
-- Hybrid Recommendation Engine
 
 ## Features
-- Personalized Recommendations
-- Popular Product Ranking
-- User Preference Scoring
-- Recommendation Logging
-- Analytics Dashboard
-- Dockerized Deployment
+- Personalized recommendations
+- Product ranking engine
+- Recommendation logging
+- Analytics dashboard
+- Hybrid recommendation model
+
+## Architecture
+User → Streamlit → FastAPI → PostgreSQL → Recommendation Engine
 
 ## Run Locally
-
 docker compose up --build
-
-Frontend:
-http://localhost:8501
-
-Backend:
-http://localhost:8000/docs
