@@ -1,0 +1,12 @@
+from fastapi import APIRouter
+
+from app.services.history_service import (
+    get_user_history
+)
+
+router = APIRouter()
+
+@router.get("/history/{user_id}")
+def history(user_id: str):
+
+    return get_user_history(user_id)

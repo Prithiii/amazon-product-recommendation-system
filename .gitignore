@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# Docker
+postgres_data/
+
+# Data Files
+data/raw/
+data/processed/
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
